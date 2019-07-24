@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7763cac1-c271-4281-99d3-81415922fc14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Landmarks_video.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/MobileNetSSD_deploy.caffemodel" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/MobileNetSSD_deploy.caffemodel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/MobileNetSSD_deploy.prototxt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/MobileNetSSD_deploy.prototxt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/deploy.prototxt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/deploy.prototxt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/example_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/example_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/hs.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/multiple_choice_template.psd" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/multiple_choice_template.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/page.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/page.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/receipt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/receipt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/res10_300x300_ssd_iter_140000.caffemodel" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/res10_300x300_ssd_iter_140000.caffemodel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/shape_predictor_68_face_landmarks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivos/tetris_blocks.png" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/tetris_blocks.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/detect_faces_video.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="622">
-              <caret line="90" column="9" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="90" selection-end-column="9" />
+              <caret line="90" column="9" selection-start-line="82" selection-start-column="4" selection-end-line="90" selection-end-column="9" />
               <folding>
                 <element signature="e#152#189#0" expanded="true" />
               </folding>
@@ -28,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Landmarks_video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+            <state relative-caret-position="169">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -118,6 +129,11 @@
             </path>
             <path>
               <item name="cv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cv" type="462c0819:PsiDirectoryNode" />
+              <item name="archivos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cv" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -137,6 +153,8 @@
       <recent name="$PROJECT_DIR$/archivos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/archivos/images" />
+      <recent name="$PROJECT_DIR$/archivos/models" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -152,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Landmarks_video">
+  <component name="RunManager" selected="Python.test_grader">
     <configuration name="Landmarks_video" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="cv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +184,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Landmarks_video.py" />
-      <option name="PARAMETERS" value="--shape-predictor archivos/shape_predictor_68_face_landmarks.dat" />
+      <option name="PARAMETERS" value="--shape-predictor archivos/models/shape_predictor_68_face_landmarks.dat" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -229,7 +247,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect_faces_video.py" />
-      <option name="PARAMETERS" value="--prototxt archivos/deploy.prototxt.txt --model archivos/res10_300x300_ssd_iter_140000.caffemodel" />
+      <option name="PARAMETERS" value="--prototxt archivos/models/deploy.prototxt.txt --model archivos/models/res10_300x300_ssd_iter_140000.caffemodel" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -250,7 +268,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect_faces.py" />
-      <option name="PARAMETERS" value="--prototxt archivos/deploy.prototxt.txt --model archivos/res10_300x300_ssd_iter_140000.caffemodel --image archivos/img.jpg" />
+      <option name="PARAMETERS" value="--prototxt archivos/models/deploy.prototxt.txt --model archivos/models/res10_300x300_ssd_iter_140000.caffemodel --image archivos/images/img.jpg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -271,7 +289,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/facial_landmarks.py" />
-      <option name="PARAMETERS" value="--shape-predictor archivos/shape_predictor_68_face_landmarks.dat --image archivos/img.jpg" />
+      <option name="PARAMETERS" value="--shape-predictor archivos/models/shape_predictor_68_face_landmarks.dat --image archivos/images/img.jpg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -292,7 +310,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object detection.py" />
-      <option name="PARAMETERS" value="--image archivos/tetris_blocks.png" />
+      <option name="PARAMETERS" value="--image archivos/images/tetris_blocks.png" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -313,7 +331,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/real_time_object_detection.py" />
-      <option name="PARAMETERS" value="--prototxt archivos/MobileNetSSD_deploy.prototxt.txt --model archivos/MobileNetSSD_deploy.caffemodel" />
+      <option name="PARAMETERS" value="--prototxt archivos/models/MobileNetSSD_deploy.prototxt.txt --model archivos/models/MobileNetSSD_deploy.caffemodel" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -334,7 +352,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scan.py" />
-      <option name="PARAMETERS" value="--image archivos/page.jpg" />
+      <option name="PARAMETERS" value="--image archivos/images/page.jpg" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -355,7 +373,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object_size.py" />
-      <option name="PARAMETERS" value="--image archivos/example_02.png --width 0.955" />
+      <option name="PARAMETERS" value="--image archivos/images/example_02.png --width 0.955" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -415,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563960728104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="video landmarks">
+      <created>1563961819498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563961819498</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -430,17 +455,17 @@
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1863388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1863388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17494601" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17494601" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32930514" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -449,9 +474,36 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nuevos programas" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuevos programas" />
+    <MESSAGE value="video landmarks" />
+    <option name="LAST_COMMIT_MESSAGE" value="video landmarks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -466,13 +518,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ex1.py" />
-    <entry file="file://$PROJECT_DIR$/archivos/deploy.prototxt.txt">
+    <entry file="file://$PROJECT_DIR$/archivos/models/deploy.prototxt.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pyimagesearch/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/archivos/MobileNetSSD_deploy.prototxt.txt">
+    <entry file="file://$PROJECT_DIR$/archivos/models/MobileNetSSD_deploy.prototxt.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/real_time_object_detection.py">
@@ -526,7 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archivos/img.jpg">
+    <entry file="file://$PROJECT_DIR$/archivos/images/img.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/facial_landmarks.py">
@@ -552,7 +604,7 @@
     <entry file="file://$PROJECT_DIR$/detect_faces_video.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
-          <caret line="90" column="9" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="90" selection-end-column="9" />
+          <caret line="90" column="9" selection-start-line="82" selection-start-column="4" selection-end-line="90" selection-end-column="9" />
           <folding>
             <element signature="e#152#189#0" expanded="true" />
           </folding>
@@ -561,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Landmarks_video.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+        <state relative-caret-position="169">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
