@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7763cac1-c271-4281-99d3-81415922fc14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/MobileNetSSD_deploy.caffemodel" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/MobileNetSSD_deploy.caffemodel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/MobileNetSSD_deploy.prototxt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/MobileNetSSD_deploy.prototxt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/deploy.prototxt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/deploy.prototxt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/example_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/example_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/hs.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/multiple_choice_template.psd" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/multiple_choice_template.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/page.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/page.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/receipt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/receipt.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/res10_300x300_ssd_iter_140000.caffemodel" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/res10_300x300_ssd_iter_140000.caffemodel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/shape_predictor_68_face_landmarks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/models/shape_predictor_68_face_landmarks.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivos/tetris_blocks.png" beforeDir="false" afterPath="$PROJECT_DIR$/archivos/images/tetris_blocks.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Landmarks_video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -170,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_grader">
+  <component name="RunManager" selected="Python.Landmarks_video">
     <configuration name="Landmarks_video" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="cv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -440,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563961819498</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mas ordenado">
+      <created>1563963134996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563963134996</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -455,18 +450,18 @@
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1863388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1863388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17494601" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17494601" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297414" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32930514" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -503,7 +498,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nuevos programas" />
     <MESSAGE value="video landmarks" />
-    <option name="LAST_COMMIT_MESSAGE" value="video landmarks" />
+    <MESSAGE value="mas ordenado" />
+    <option name="LAST_COMMIT_MESSAGE" value="mas ordenado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Landmarks_video.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="270">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
