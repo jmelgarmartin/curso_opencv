@@ -1,5 +1,6 @@
 # USAGE
-# python detect_faces.py --image rooster.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+# python detect_faces.py --image archivos/images/img.jpg--prototxt archivos/models/deploy.prototxt.txt --model archivos/models/res10_300x300_ssd_iter_140000.caffemodel
+
 
 # import the necessary packages
 import numpy as np

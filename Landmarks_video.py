@@ -1,6 +1,8 @@
+#USAGE
+# python Landmarks_video.py --shape-predictor archivos/models/shape_predictor_68_face_landmarks.dat
+
 from imutils import face_utils
 from imutils.video import VideoStream
-import numpy as np
 import argparse
 import imutils
 import dlib

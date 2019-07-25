@@ -1,5 +1,5 @@
 # USAGE
-# python test_grader.py --image images/test_01.png
+# python test_grader.py --image archivos/images/test_02.png
 
 # import the necessary packages
 from imutils.perspective import four_point_transform
