@@ -59,19 +59,14 @@ predictor = dlib.shape_predictor(args["shape_predictor"])
 
 # start the video stream thread
 print("[INFO] starting video stream thread...")
-vs = FileVideoStream(args["video"]).start()
-fileStream = True
-# vs = VideoStream(src=0).start()
-# vs = VideoStream(usePiCamera=True).start()
-# fileStream = False
+
+vs = VideoStream(src=0).start()
+#vs = VideoStream(usePiCamera=True).start()
+
 time.sleep(1.0)
 
 # loop over frames from the video stream
 while True:
-	# if this is a file video stream, then we need to check if
-	# there any more frames left in the buffer to process
-	if fileStream and not vs.more():
-		break
 
 	# grab the frame from the threaded video file stream, resize
 	# it, and convert it to grayscale
